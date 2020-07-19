@@ -14,5 +14,5 @@ sudo apt-get install gcc-arm-none-eabi
 
 Go to repo folder
 
-make all
+make all<br>
 make install
