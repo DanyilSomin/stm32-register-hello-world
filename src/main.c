@@ -1,5 +1,5 @@
 #include "stm32f10x.h"
-#include "light-control/lightcontrol.h"
+#include "lightcontrol.h"
 
 int main()
 {
