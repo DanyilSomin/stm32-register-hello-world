@@ -24,7 +24,6 @@ OBJECTS += $(SOURCES:.s=.o)
 	$(CC) $(ASFLAGS) -c -o obj/$(notdir $@) $<
     
 all:	dirs $(OBJECTS)
-	echo $(OBJECTS)
 	$(LD) $(LDFLAGS) -o $(BINDEST).elf  $(wildcard obj/*.o)
 	$(OBJCOPY) -O binary $(BINDEST).elf $(BINDEST).bin	
 
